@@ -10,7 +10,7 @@ public class Main {
         if (args[0].equals("search")) {
             try {
                 File myObj = new File(System.getProperty("user.dir") + "/search/" + args[2]);
-                Scanner myReasder = new Scanner(myObj);
+                Scanner myReader = new Scanner(myObj);
                 int line = 1; 
                 while (myReader.hasNextLine()) {
                     String temp = myReader.nextLine();
